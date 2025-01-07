@@ -2,7 +2,7 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated class="glossy">
       <q-toolbar class="bg-red-4">
-        <q-toolbar-title> Hourse racing </q-toolbar-title>
+        <q-toolbar-title> Hourse racing - in development</q-toolbar-title>
         <q-btn class="bg-grey-2 text-black q-mr-sm"> generate program </q-btn>
         <q-btn class="bg-grey-2 text-black q-mr-sm"> start/pause </q-btn>
       </q-toolbar>
