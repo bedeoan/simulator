@@ -1,24 +1,10 @@
-# test
+## basic test scenario
+## e2e
+-check after the generate button has been clicked
+it renders games with scors
 
-## Project setup
-```
-yarn install
-```
+## unit test 
+->input some, data ->hourse list, outputs a number of divs and id's are present and not empty
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### possible test: test component Round Preview to show result only if round was finished
