@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blue-1">
+  <div class="bg-blue-1 tableHeight">
     <div class="flex row">
       <div class="col text-center text-bold">Program</div>
       <div class="col text-center text-bold">Results</div>
@@ -20,3 +20,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+.tableHeight {
+  height:80vh;
+}
+</style>

@@ -1,7 +1,7 @@
 <template>
   <q-page class="bg-yellow-1">
     <div class="text-h5">Hourse List(1-20)</div>
-    <q-markup-table flat bordered>
+    <q-markup-table flat bordered class="tableHeight">
       <thead>
         <tr>
           <th class="text-center">Name</th>
@@ -26,3 +26,8 @@ export default {
   setup() {},
 };
 </script>
+<style scoped>
+.tableHeight {
+  height:80vh;
+}
+</style>

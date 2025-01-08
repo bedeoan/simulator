@@ -8,3 +8,8 @@ it renders games with scors
 
 
 ### possible test: test component Round Preview to show result only if round was finished
+
+## steps
+-initalize program cu 6 rounds dupa reguli
+-start si stop in preview dupa viteza, un state acolo start/stop
+====
