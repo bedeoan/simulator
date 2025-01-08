@@ -51,7 +51,7 @@ const generateRoundsPrograms = () => {
   // generate 6 rounds 
   const rounds = [];
 
-  for (let i = 1; i <= 10; i++) {
+  for (let i = 1; i <= 6; i++) {
     const players = generateUniqueRandomNumbers(1, 20, 10);
     rounds.push({
       id: i,
