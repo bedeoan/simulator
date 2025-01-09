@@ -1,7 +1,7 @@
 <template>
   <div>
     <q-markup-table title="test" flat bordered>
-      <thead class="">
+      <thead>
         <tr>
           <th class="text-center">Position</th>
           <th class="text-center">Name</th>
@@ -12,7 +12,7 @@
       </thead>
       <tbody>
         <tr v-for="(player, index) in players" :key="index">
-          <td class="text-center">{{ player.position }}</td>
+          <td class="text-center">{{ player.index }}</td>
           <td class="text-center">{{ player.name }}</td>
         </tr>
       </tbody>
@@ -23,8 +23,5 @@
 <script>
 export default {
   props: ["players", "label"],
-  setup() {
-    return {};
-  },
 };
 </script>

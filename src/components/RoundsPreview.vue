@@ -4,8 +4,10 @@
       <div class="col text-center text-bold">Program</div>
       <div class="col text-center text-bold">Results</div>
     </div>
-    <div v-for="(round, index) in rounds" :key="index">
-      <round-preview :round="round"></round-preview>
+    <div class="innerSection">
+      <div v-for="(round, index) in rounds" :key="index">
+        <round-preview :round="round"></round-preview>
+      </div>
     </div>
   </div>
 </template>
@@ -22,6 +24,10 @@ export default {
 </script>
 <style scoped>
 .tableHeight {
+  height:80vh;
+  overflow: scroll;
+}
+.innerSection {
   height:80vh;
 }
 </style>

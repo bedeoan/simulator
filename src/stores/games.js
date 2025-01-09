@@ -2,11 +2,33 @@ import { defineStore } from 'pinia'
 
 export const useGameStore = defineStore("game", {
     state: () => ({
-      hourseList: [
-      ],
-      tracks: [],
-      rounds: []
+      hourseList: [],
+      rounds: [],
+      colors: [
+        "red",
+        "blue",
+        "green",
+        "black",
+        "purple",
+        "orange",
+        "pink",
+        "brown",
+        "cyan",
+        "magenta",
+        "lime",
+        "teal",
+        "olive",
+        "navy",
+        "maroon",
+        "gold",
+        "silver",
+        "coral",
+        "orchid",
+        "violet",
+      ]
     }),
-    getters: {},
+    getters: {
+      // special getter to know if smallest hourse has finised
+    },
     actions: {}
 });
