@@ -20,7 +20,7 @@
         </div>
       </div>
     </div>
-    <div class="text-center text-red text-bold">Lap {{ round.name }}</div>
+    <div class="text-center text-red text-bold">Lap {{ round.name }} {{ round.length }}m</div>
   </q-page>
 </template>
 

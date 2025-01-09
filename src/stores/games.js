@@ -25,10 +25,10 @@ export const useGameStore = defineStore("game", {
         "coral",
         "orchid",
         "violet",
-      ]
+      ],
+      roundLengths: [1200, 1400, 1600, 1800, 2000, 2200]
     }),
     getters: {
-      // special getter to know if smallest hourse has finised
+      //we may create a special getter to check if smallest hourse has finised in the selected Round
     },
-    actions: {}
 });

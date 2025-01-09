@@ -65,7 +65,7 @@ const generateRoundsPrograms = () => {
         currentPosition: 1,
         index: index + 1,
       })),
-      length: Math.floor(Math.random() * 3000) + 600,
+      length: store.roundLengths[i-1],
       finished: false,
     });
   }
