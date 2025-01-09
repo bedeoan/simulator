@@ -14,7 +14,7 @@
         />
       </template>
       <div v-else class="col flex flex-center">
-        {{ round.label }} not finished.
+        Round {{ round.name }} not finished.
       </div>
     </div>
   </div>
